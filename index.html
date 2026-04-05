@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+  <title>Nishan | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="bg"></div>
+
+<header class="navbar">
+  <div class="logo">Nishan</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#projects">Work</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="home" class="hero section">
+  <br><br><br><br>
+  <h1>I BUILD <br> FUTURE UI</h1>
+  <p id="typing"></p>
+
+  <div class="hero-buttons">
+    <button class="btn" onclick="window.open('CV/Nishan_CV.pdf','_blank')">Download CV</button> </div>
+    <div class="hero-buttons">
+    <button class="btn-CV" onclick="scrollToSection('projects')">View Work ⚡ </button></div>
+</section>
+
+<section id="projects" class="section">
+  <h2 class="section-title"><u>Projects</u></h2>
+  <br><br><br>
+  <div class="grid">
+    <div class="card" onclick="openProject('https://nishandeep829.github.io/Tic-Tac-Toe/')">
+      Tic Tac Toe
+    </div>
+    <div class="card" onclick="openProject('https://nishandeep829.github.io/Login-project/')">Login UI</div>
+    <div class="card" onclick="openProject('https://nishandeep829.github.io/CALCULATOR/')">Calculator</div>
+  </div>
+</section>
+
+<!-- ✅ FIXED ABOUT -->
+<section id="about" class="section fade">
+  <h2 class="section-title"><u>About</u></h2>
+  <br><br>
+
+  <div class="about-wrapper">
+    <p class="about-text">
+      I create modern web experiences with smooth animations, interactive UI and premium design feel.
+      I focus on clean layouts, engaging visuals, and user-friendly interfaces.
+    </p>
+  </div>
+</section>
+
+<section id="contact" class="section fade">
+  <h2 class="section-contact"><u>Contact</u></h2>
+  <br><br><br>
+  <a href="https://wa.me/917652910289" target="_blank" class="whatsapp-contact" >Whatsapp No.: +917652910289</a>
+  <br> <br><br>
+  <a href="https://www.instagram.com/nishxn_76?igsh=MWswcjZqcHdkczZjbA==" target="_blank" class="insta-contact" >Insta: nishxn_76</a>
+  <br><br><br>
+  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=nishandeep829@gmail.com" target="_blank" class="email-contact">Email: nishandeep829@gmail.com</a>
+</section>
+
+<footer>
+  <p>© 2026 Nishan | All Rights Reserved</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
